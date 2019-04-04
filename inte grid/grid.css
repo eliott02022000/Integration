@@ -1,0 +1,89 @@
+html body {
+    margin:0;
+    padding:0;
+}
+
+#newyork {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25% 75%;
+    background-color: lightblue;
+    width: 100%;
+    height: 80vh;
+}
+
+nav p {
+    text-align: right;
+    margin-right: 20px;
+}
+
+#newyork h2 {
+    margin-left: 20px;
+}
+
+#newyork nav {
+    grid-area: 1/1/2/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#button2 {
+    background-color:#00CED1;
+	border-radius:35px;
+	padding:10px 40px;
+	color:white;
+	border-color:#00CED1;
+}
+
+#newyork nav h2 {
+    grid-area: 1/1/2/2;
+}
+
+#mid {
+    grid-area: 2/2/3/3;
+    text-align: center;
+}
+
+.container{
+    background-color:white;
+	grid-row-start: 2;
+	display:grid;
+	grid-area:2 / 1/ 3/ 4;
+	grid-template-columns: 120px 1fr 120px;
+  	grid-template-rows: 40px 300px 40px 300px 40px;
+}
+
+
+article{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	text-align:left;
+}
+
+article:first-child{
+	background-color:white;
+	grid-area:2 / 2/ 3/ 3;
+}
+
+article:nth-child(2){
+	background-color:white;
+	grid-area:4 / 2/ 5/ 3;
+}
+
+button {
+	background-color:white;
+	border-radius:35px;
+	padding:10px 40px;
+	color:#00CED1;
+	border-color:#00CED1;	
+}
+
+.container img {
+    height: 200px;
+}
+
+#p {
+    width: 300px;
+}
+

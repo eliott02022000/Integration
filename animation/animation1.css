@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+}
+
+#full {
+    position: absolute;
+    width: 100%;
+}
+
+.photo:hover #fullsquare {
+    visibility: visible;
+}
+
+.photo {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 350px;
+    margin-top: 20vh;
+}
+
+.casino {
+    position: relative;
+    box-shadow: 0 0 2px 2px grey;
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    display:block;
+}
+
+.fullsquare {
+    visibility: hidden;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fullsquare img {
+    justify-content: center;
+    width: 45px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+#text {
+    margin-top: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    top: 65%;
+}

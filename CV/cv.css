@@ -1,0 +1,197 @@
+body
+{
+    margin: 0;
+    display: flex;
+    font-family: sans-serif;
+    background-color: #DCDCDC;
+}
+
+.edu
+{
+    flex: 2;
+    padding: 50px;
+}
+
+.about
+{
+    flex: 1;
+    vertical-align: top;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.photo
+{
+    width: 250px;
+    height: 250px;
+    background-color: #bbb;
+    border: 2px solid;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.about h2
+{
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.about p
+{
+    width: 250px;
+    margin: auto;
+    text-align: justify;
+}
+
+.about h3
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.bottom
+{
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+table
+{
+    width: 100%;
+}
+
+.experience
+{
+    border-left: #333 solid 2px;
+    padding-left: 20px;
+}
+
+.education
+{
+    border-left: #333 solid 2px;
+    padding-left: 20px;
+}
+
+.skill
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill li
+{
+    margin-bottom: 20px;
+}
+
+.edu li
+{
+    display: flex;
+}
+
+.point_container
+{
+    display: flex;
+}
+
+.point_container div
+{
+    width: 15px;
+    height: 15px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.point_container .full
+{
+    background-color: black;
+}
+
+.another_skill
+{
+    width: 250px;
+}
+
+.language
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.language div
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language .full
+{
+    border: black solid 4px;
+    border-radius: 50%;
+}
+
+.language .half
+{
+    border: black solid 4px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-radius: 50%;
+    transform: rotate(135deg);
+}
+
+.language .half h5
+{
+    transform: rotate(-135deg);
+}
+
+.language .three
+{
+    border: black solid 4px;
+    border-right-color: transparent;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.language .three h5
+{
+    transform: rotate(45deg);
+}
+
+.interests
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.interests div
+{
+    width: 100px;
+    height: 100px;
+    border: black solid 2px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

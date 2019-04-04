@@ -1,0 +1,125 @@
+/*
+1) Ciblez le header et donnez lui un fond noir, un padding de 30px et une couleur blanche
+*/
+body > div:first-of-type {
+	background-color: #000;
+	padding: 30px;
+	color: #fff;
+}
+
+/*
+2) Ciblez la liste skills et rendez le dernier li bleu
+*/
+body > ul:nth-of-type(1) > li:last-of-type {
+	color: blue;
+}
+
+/*
+3) Tous les éléments des ol doivent avoir une bordure, sauf le premier
+*/
+ol:not(:first-of-type) {
+	border: 1px solid;
+}
+
+/*
+4) Le 3e li de la page doit avoir une couleur de texte rouge
+*/ 
+body > div:nth-of-type(2) li:nth-of-type(3) {
+	color:red;
+}
+
+
+/*
+5) Le mot "pariatur" doit être en gras et souligné
+*/
+body > p:nth-of-type(2) span:last-of-type {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*
+6) La div importante doit avoir une bordure noire et une marge interne de 10px
+*/
+div > div > div
+{
+	border: 1px solid;
+}
+
+/*
+7) Devant le second paragraphe, affichez "COUCOU"
+*/
+body>p:nth-of-type(2):before{
+	content:" COUCOU";
+}
+/*
+8) Devant le quatrième span de chaque paragraphe doit apparaître "Weasley ? "
+*/
+p>span:nth-of-type(4):before {
+	content:"Weasley ?";
+}
+
+/*
+9) Le sous-menu doit avoir un texte en gris
+*/
+ul li ul li{
+	color: grey;
+}
+
+
+/*
+10) Le sedond élément du sous-menu doit être en gras
+*/
+
+/*
+11) Tous les éléments du second menu doit avoir une bordure verte arrondie sauf le second
+*/
+body > ul:first-of-type > *:not(:nth-of-type(2)) {
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+/*
+12) Le JS doit être en jaune
+*/
+li > p {
+	color: yellow;
+}
+/*
+13) Il ne doit pas avoir de puces devant le sous-menu
+*/
+ul li ul li{
+	list-style: none; 
+}
+ul:last-of-type li:last-child{
+	list-style: none;
+}
+
+/*
+14) Les h2 doivent avoir une taille de police de 30, sauf le second
+*/
+h2:not(:nth-of-type(2))
+{
+	font-size: 30px;
+}
+
+/*
+15) Le 3e h2 doit afficher "Oui. Au revoir Marly." après son contenu
+*/
+h2:nth-of-type(3):after {
+	content:"Oui. Au revoir Marly.";
+}
+
+/*
+16) Le paragraphe avec écrit "DU TEXTE" doit être en texte rose
+*/
+div > div > div > div >p{
+	color: pink
+}
+
+/*
+17) Le 5e élément du body doit afficher "MULTIPASS" derrière chacun de ses enfants
+*/
+
+body > *:nth-child(5) > *::after {
+	content: "MULTIPASS";
+}

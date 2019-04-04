@@ -1,0 +1,481 @@
+html body {
+    display: none;
+    background-color: #151515;
+    min-height: 100vh;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#leftcontainer {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/JXSAF8KN0P.jpg");
+    background-size: cover;
+}
+
+#logo {
+    width: 350px;
+    height: 230px;
+    display: block;
+    margin: auto;
+    /* background-color: white; */
+    background-image: url("chrome-extension://__MSG_@@extension_id__/supinternet.png");
+    background-size: cover;
+    opacity: 1;
+}
+
+#username {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 350px;
+    height: 60px;
+    background: transparent;
+    font-size: 20px;
+}
+
+/* #logo_username {
+    background: url("chrome-extension://__MSG_@@extension_id__/username.png") no-repeat scroll;
+    width: 20px;
+    height: 40px;
+} */
+
+#password {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 350px;
+    height: 60px;
+    background: transparent;
+    font-size: 20px;
+    
+}
+#password::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 20px;
+}
+
+#username::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 20px;
+}
+#submit {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 60px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #F36F38;
+    border: none;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    background-color: #151515;
+}
+
+#submit:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+input[type=text] {
+    border: none;
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+input[type=password] {
+    color: white;
+    border: none;
+    border-bottom: 5px solid white;
+}
+
+#forgotpwd {
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    /* text-transform: underline; */
+}
+
+div.section {
+    background-color: #151515 !important;
+}
+
+div.menu_list ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+#breadcrumbs-one a {
+    background-color: #151515;
+}
+
+div#content {
+    background : #151515;
+    border: #151515;
+    margin: auto;
+    margin-top: 70px;
+    width: 1200px;
+    border-top-width: 0px;
+}
+
+div#sidebar {
+    background-color: #151515;
+    z-index: 1001;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: fixed;
+    width: 22%;
+    font-size: 0.75em;
+}
+
+div#content_box {
+    background-color: #151515;
+    float: none;
+    width: none;
+    margin-left: auto;
+    padding-top: 5%;
+}
+
+div#sidebar.section a, .section a:hover, section a:active, .section a:visited {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section a, .section a:hover, section a:active, .section a:visited {
+    height: 43px !important;
+    padding-top: 25% !important;
+    border: solid 2px #F36F38;
+    
+}    
+
+body cufon canvas {
+    position: relative!important;
+    top: -27px !important;
+    
+}
+
+html body #content #content_box .content_display.new_ergo_content #grades tbody tr[style*="background-color:white;"] {
+    background-color:#C0C0C0 !important;
+}
+
+html body #content #content_box .content_display.new_ergo_content #grades tbody tr[style*="background-color:white;"] td {
+    color: black !important;
+}
+
+
+#board h3 {
+    text-align: center;
+}
+
+.content_display.new_ergo_content h2 {
+    display: none;
+}
+
+.adm_table th {
+    display: none;
+}
+td.tcenter {
+    background-color: #151515;
+}
+
+.tcenter b {
+    color: white;
+}
+
+a.btn.btn-large {
+    background: #F36F38 !important;
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+input.btn.btn-success {
+    background-image: linear-gradient(to bottom,#F36F38,#F36F38);
+    color: white;
+    background-color: #F36F38;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+input.btn.btn-success:hover {
+    background-color: #151515;
+    color: #F36F38;
+}
+
+div#top-bar {
+    height: 0px;
+}
+
+header #top-bar {
+    background-color: #151515;
+    margin-bottom: 20px;
+}
+p.new-ergo-info {
+    border: 1px solid #F36F38;
+    color: white;
+    background-color: #151515;
+}
+
+i.fa-info-circle:before {
+    color: #F36F38;
+}
+
+input#token-input {
+    color: #F36F38;
+}
+
+div#v_card_text {
+    color: white;
+    margin-top: -50px;
+}
+
+div#logout {
+    color: white;
+}
+
+div#logout img {
+    width: 20px;
+    height: 20px;
+    margin-top: -50px;
+}
+
+div#v_card_photo img {
+    width: 65px;
+    height: 80px;
+    margin-right: 100px;
+    border-radius: 50%;
+
+}
+
+#top-bar-center img {
+    display: none;
+}
+
+div#top-bar-left {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/logo-blanc.png");
+    background-size: cover;
+    width: 110px;
+    height: 80px;
+    margin-left: 50%;
+}
+html footer {
+    background:none;
+}
+body footer div div:first-child {
+    display: none;
+}
+
+body footer div div {
+    display: none;
+}
+
+body footer div div:last-child {
+    display: none;
+    background-color: #F36F38;
+}
+
+div#content_box {
+    margin-top: 50px;
+}
+
+#logout span {
+    display: none;
+}
+
+body #content header hr {
+    display: none;
+}
+
+body #content header h2 {
+    font-weight: normal;
+}
+
+.adm_table tr:nth-child(even) {
+    background-color: #F36F38 !important;
+}
+
+.adm_table td {
+    color:white !important;
+}
+
+.section a, .section a:hover, section a:active, .section a:visited {
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.adm_table tr:nth-child(odd) {
+    background-color: #151515 !important;
+}
+
+div.prj_col_h {
+    background-color: #151515;
+}
+
+.new-ergo-ok {
+    border: 1px solid green;
+    background-color: #151515 !important;
+} 
+
+html p.new-ergo-warning {
+    border: 1px solid red;
+    background-color: #151515 !important;
+}
+
+html td.name {
+    border-top: solid 0.5px white;
+    font-size: 15px;
+}
+
+html td.grade {
+    border-top: solid 0.5px white;
+    font-size: 15px;
+}
+
+html td.comment {
+    border-top: solid 0.5px white;
+    font-size: 15px;
+}
+
+
+
+/* td.name {
+    border-top: solid white;
+} */
+
+
+
+/* iphone */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+    div#board a {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 30%;
+    }
+
+    div.box_center.first-box {
+        /* margin: 0px 0px 0px 0px; */
+        margin-left: 32px;
+    }
+
+    div#sidebar {
+        position: absolute;
+        font-size: 1em;
+    }
+
+    ul#breadcrumbs-one li {
+        float: none;
+    }
+
+    header h2 {
+        font-size: 80px;
+    }
+
+    p.new-ergo-info{
+        margin-top: 170px;
+    }
+
+    a.btn.btn-large {
+        width: 300px;
+        height: 50px;
+        min-height: 100%;
+    }
+
+    i.fa.fa-refresh.fa-lg {
+        font-size: 60px;
+    }
+
+    td.tcenter {
+        height: 200px;
+    }
+
+    td.tcenter b {
+        font-size: 50px;
+    }
+
+    #username {
+        margin-top: 75%;
+        width: 600px;
+        height: 120px;
+    }
+
+    #password {
+        width: 600px;
+        height: 120px;
+    }
+
+    .menuburger {
+        display: block;
+        width: 37px;
+        height: 3px;
+        background-color: black;
+    }
+    .menuburger::before {
+        margin-top: 5px;
+        display: block;
+        content: "";
+        width: 37px;
+        height: 3px;
+        background-color: black;
+    }
+    .menuburger::after {
+        margin-top: 3px;
+        display: block;
+        content: "";
+        width: 37px;
+        height: 3px;
+        background-color: black;
+    }
+
+    div#sidebar {
+
+    }
+}
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 1024px) {
+    #username {
+        margin-top: 35%;
+        width: 600px;
+        height: 120px;
+    }
+
+    #password {
+        width: 600px;
+        height: 120px;
+    }
+}
+
+  

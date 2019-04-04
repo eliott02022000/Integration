@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+   
+    "name": "portfolio",
+    "version": "0.1.0",
+    "description": "",
+    "web_accessible_resources": ["*"],
+   
+    "content_scripts": [{
+      "css": ["style.css"],
+      "js": ["script.js"],
+      "matches": ["http://intranet.supinternet.fr/*"]
+    }]
+   
+  }

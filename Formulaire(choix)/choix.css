@@ -1,0 +1,90 @@
+body {
+	background-color: #2b5d9f;
+	margin: 0;
+}
+
+.vertical {
+	width: 700px;
+	height: 100%;
+	background-color: #2b5d9f;
+	margin: auto;
+	box-shadow: 1px 1px 12px black;
+}
+
+header {
+	display: block;
+	width: 100%;
+	height: 180px;
+	background-color: #efe180;
+
+}
+
+h1 {
+	text-align: center;
+	color : #2b5d9f;
+	font-size: 50px;
+	margin: 0;
+	font-family: "Din", sans-serif;
+    font-weight: bold;
+	line-height: 180px;
+}
+.quiz {
+	background-color: #115EA4;
+    padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.quiz .leschoix {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.quiz .leschoix p {
+	margin: 0;
+	color: #13A6AA;
+	font-size: 35px;
+	text-align: right;
+}
+
+.quiz .leschoix h2 {
+	position: relative;
+	margin: 0;
+	background-color: #13A6AA;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px 0 20px 30px;
+}
+
+.quiz .leschoix input[type="radio"] {
+	display: none;
+}
+
+.quiz .leschoix input[type="radio"]:hover + label {
+	opacity: 0.9;
+}
+
+.quiz input[type="radio"]:indeterminate + label {
+    opacity: 1;
+}
+
+.quiz input[type="radio"]:checked + label {
+    opacity: 1;
+}
+
+.quiz input[type="radio"] + label {
+    opacity: 0.5;
+}
+
+.quiz .leschoix label {
+	display: block;
+	margin: 10px 0;
+	background-color: #FFF;
+	color: #115EA4;
+	font-size: 20px;
+	padding: 15px 0 15px 20px;
+	cursor: pointer;
+}
+
+
